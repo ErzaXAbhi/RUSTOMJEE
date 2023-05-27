@@ -1,0 +1,15 @@
+.cards {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+  }
